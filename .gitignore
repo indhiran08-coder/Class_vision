@@ -1,0 +1,65 @@
+data/attendai_attendance.db*
+backups/
+Student_Test_5.csv
+.review_env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+.review_env/
+yolo_env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Backups
+*.bak
+*.backup
+*.backup_req
+*.pre_*
+
+# Student personal and biometric information
+Student.csv
+Student_Test_5.csv
+student_photos/
+face_database/
+AttendAI_Student_Data/
+
+# Local databases
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# Model weights and compiled models
+*.pt
+*.onnx
+*.engine
+*.plan
+
+# Generated videos and diagnostic output
+*.mp4
+*.avi
+*.mov
+*.log
+
+# Generated results
+results/
+reports/
+backups/
+face_track_*.csv
+tracked_video_*.csv
+validation_results*.csv
+validation_cases*.csv
+live_validation_results.csv
+group_video_results.csv
+
+# OS/editor files
+.DS_Store
+*.swp
